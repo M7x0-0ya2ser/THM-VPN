@@ -3,7 +3,7 @@
 
 setup process 
 steps:
-Add cloudflare gpg key
+Add cloudflare gpg key<br/>
 curl https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
 ​
 Add this repo to your apt repositories
