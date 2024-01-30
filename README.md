@@ -1,6 +1,7 @@
 # THM-VPN
 <br/>
 <br/>
+**Before you start to use tool you should check that you have been install cloudflare-warp before**<br/>
 setup process <br/>
 <br/>
 steps:<br/>
