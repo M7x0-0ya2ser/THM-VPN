@@ -14,9 +14,12 @@ sudo apt update && sudo apt install cloudflare-warp<br/>
 warp-svc register&<br/>
 ​
 5- register <br/>
+
+```bash
 warp-cli register<br/>
-​
+​```<br/>
+
 6- connect <br/>
 ```bash
-warp-cli connect<br/>
+warp-cli connect
 ```
