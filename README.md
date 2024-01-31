@@ -42,3 +42,8 @@ warp-cli connect
 ▶ Before you start to use the tool if you aren't install openvpn follow the next steps, if already installed skip the next steps<br/>
 
 ---
+```bash
+1- sudo apt update
+2- sudo apt install openvpn
+````
+```
