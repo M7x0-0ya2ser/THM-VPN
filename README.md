@@ -1,7 +1,7 @@
 # THM-VPN
 
 
-1- Add cloudflare gpg key 
+**1- Add cloudflare gpg key**
 ```bash
 curl https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
 ```
