@@ -34,7 +34,6 @@
 6- connect
 - warp-cli connect
 ```
-📌 This steps that i stole it from [Eng/Zyad Elsayed](https://www.facebook.com/Zyad.Elsayed.2) All thanks to him <br/>
 ---
 ## Before you start to use the tool if you aren't install openvpn follow the next steps, if already installed skip the next steps
 
