@@ -4,7 +4,7 @@
 
 ---
 
-## Before you start to use the tool if you aren't install cloudflare-warp follow the next steps, if already installed skip the 6 next steps>
+## Before you start to use the tool if you aren't install cloudflare-warp follow the next steps, if already installed skip the 6 next steps
 
 **1- Add cloudflare gpg key**
 ```bash
@@ -38,13 +38,13 @@ warp-cli connect
 ```
 
 ---
-▶ Before you start to use the tool if you aren't install openvpn follow the next steps, if already installed skip the next steps<br/>
+## Before you start to use the tool if you aren't install openvpn follow the next steps, if already installed skip the next steps
 
 ```bash
 1- sudo apt update
 2- sudo apt install openvpn
 ```
 
----
 
-▶ To install and use tool<br/>
+
+## To install and use tool<br/>
