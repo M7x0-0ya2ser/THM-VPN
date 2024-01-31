@@ -1,15 +1,18 @@
 # THM-VPN
 
 
-1- Add cloudflare gpg key <br/>
-curl https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg<br/>
-​
-2- Add this repo to your apt repositories<br/>
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ buster main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list<br/>
-​
-3- Install<br/>
-sudo apt update && sudo apt install cloudflare-warp<br/>
-​
+1- Add cloudflare gpg key 
+```bash
+curl https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
+```
+2- Add this repo to your apt repositories
+```bash
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ buster main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
+​```
+3- Install
+```bash
+sudo apt update && sudo apt install cloudflare-warp
+​```
 4- run warp-svc
 ```bash
 warp-svc register&
