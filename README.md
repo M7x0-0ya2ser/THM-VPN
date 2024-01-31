@@ -4,7 +4,7 @@
 
 ---
 
-▶ Before you start to use the tool if you aren't install cloudflare-warp follow the next steps<br/>
+▶ Before you start to use the tool if you aren't install cloudflare-warp follow the next steps, if already installed skip the 6 next steps<br/>
 
 ---
 **1- Add cloudflare gpg key**
