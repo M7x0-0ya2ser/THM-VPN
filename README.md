@@ -7,7 +7,10 @@
 ▶ At first you should downloads the configration file from [THM](https://tryhackme.com/r/access) 
 
 ---
+
 ## Before you start to use the tool if you aren't install cloudflare-warp follow the next steps, if already installed skip the 6 next steps
+
+
 ```bash
 1- Add cloudflare gpg key
 - curl https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
