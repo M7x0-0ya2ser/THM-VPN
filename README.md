@@ -4,7 +4,7 @@
 
 ---
 
-![image](https://github.com/M7x0-0ya2ser/THM-VPN/assets/115821128/640dcfdb-212b-4b5e-a836-09c73a6c7e1e)
+![image](https://github.com/M7x0-0ya2ser/THM-VPN/assets/115821128/65c32395-d6ef-4d3b-8a02-f8eb41ceb598)
 
 ---
 
@@ -12,7 +12,7 @@
 
 ---
 
-## Before you start to use the tool if you aren't install cloudflare-warp follow the next steps, if already installed skip the 6 next steps
+### Before you start to use the tool if you aren't install cloudflare-warp follow the next steps, if already installed skip the 6 next steps
 
 
 ```bash
@@ -35,7 +35,7 @@
 - warp-cli connect
 ```
 ---
-## Before you start to use the tool if you aren't install openvpn follow the next steps, if already installed skip the next steps
+### Before you start to use the tool if you aren't install openvpn follow the next steps, if already installed skip the next steps
 
 ```bash
 1- sudo apt update
@@ -44,11 +44,16 @@
 
 
 
-## To install and use tool<br/>
+### To install and use tool<br/>
 ```bash
 1- git clone https://github.com/M7x0-0ya2ser/THM-VPN.git
 2- cd THM-VPN
 3- chmod +x THM-VPN.sh
 4- sudo ./THM-VPN.sh
 ```
+
+---
+### Use of tool
+**first time of use you should choose 3 to store openvpn file path that you downloaded from THM ( be careful to write path /home/user/path not ~/path )**
+
 
