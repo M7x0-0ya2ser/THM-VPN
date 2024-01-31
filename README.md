@@ -10,14 +10,14 @@ echo "deb [arch=amd64 signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyr
 3- Install<br/>
 sudo apt update && sudo apt install cloudflare-warp<br/>
 ​
-4- run warp-svc<br/>
-warp-svc register&<br/>
-​
-5- register <br/>
-
-
-warp-cli register<br/>
-<br/>
+4- run warp-svc
+```bash
+warp-svc register&
+```
+5- register 
+```bash
+warp-cli register
+```
 
 6- connect
 ```bash
