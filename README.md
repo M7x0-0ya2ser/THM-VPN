@@ -17,4 +17,6 @@ warp-svc register&<br/>
 warp-cli register<br/>
 ​
 6- connect <br/>
-`warp-cli connect<br/>`
+```bash
+warp-cli connect<br/>
+```
