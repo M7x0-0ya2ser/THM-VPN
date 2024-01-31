@@ -3,7 +3,8 @@
 ![image](https://github.com/M7x0-0ya2ser/THM-VPN/assets/115821128/640dcfdb-212b-4b5e-a836-09c73a6c7e1e)
 
 ---
-
+▶ At first you should downloads the configration file from [THM](https://tryhackme.com/r/access) 
+---
 ## Before you start to use the tool if you aren't install cloudflare-warp follow the next steps, if already installed skip the 6 next steps
 ```bash
 1- Add cloudflare gpg key
