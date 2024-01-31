@@ -28,7 +28,6 @@ if [ "$EUID" -ne 0 ]; then
   exit 1
 fi
 
-
 connect_to_warp() {
   echo "Connecting to Warp..."
   warp-cli connect
@@ -98,7 +97,7 @@ connect() {
 
                 disconnect_from_warp
             else
-                echo -e "\e[31mOpenVPN configuration file not found. You should assign an OpenVPN file.\e[0m"
+                echo -e "\e[31mopenvpn_path not found. You should assign an OpenVPN file.\e[0m"
             fi
         fi
     fi
@@ -121,7 +120,7 @@ config_file_path_fun(){
     else
         # If the config file exists, source it to load the variables
         . config.txt
-        echo "Configuration file (config.txt) already exists."
+        echo -e "\e[32mConfiguration file (config.txt) already exists.\e[0m"
     fi
 }
 
