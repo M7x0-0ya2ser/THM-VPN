@@ -54,6 +54,6 @@
 
 ---
 ### Use of tool
-**first time of use you should choose 3 to store openvpn file path that you downloaded from THM ( be careful to write path /home/user/path not ~/path )**
+**first time of use you should choose 3 to store openvpn file path that you downloaded from THM ( be careful to write /home/user not ~ in path )**
 
 
