@@ -48,3 +48,4 @@ warp-cli connect
 
 ---
 
+▶ To install and use tool<br/>
