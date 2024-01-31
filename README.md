@@ -30,6 +30,7 @@
 6- connect
 - warp-cli connect
 ```
+📌 This steps that i stole it from [Eng/Zyad Elsayed](https://www.facebook.com/Zyad.Elsayed.2) my mentor
 ---
 ## Before you start to use the tool if you aren't install openvpn follow the next steps, if already installed skip the next steps
 
@@ -47,3 +48,6 @@
 3- chmod 777 THM-VPN.sh
 4- sudo ./THM-VPN.sh
 ```
+
+---
+📌 This tool was a task in [CAT Reloaded](https://catreloaded.org/) community
