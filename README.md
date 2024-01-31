@@ -48,3 +48,9 @@ warp-cli connect
 
 
 ## To install and use tool<br/>
+```bash
+1- git clone https://github.com/M7x0-0ya2ser/THM-VPN.git
+2- cd THM-VPN
+3- chmod 777 THM-VPN.sh
+4- sudo ./THM-VPN.sh
+```
