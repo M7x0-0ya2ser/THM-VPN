@@ -4,7 +4,8 @@
 
 ---
 
-![image](https://github.com/M7x0-0ya2ser/THM-VPN/assets/115821128/65c32395-d6ef-4d3b-8a02-f8eb41ceb598)
+![image](https://github.com/M7x0-0ya2ser/THM-VPN/assets/115821128/2af080b7-5905-4076-a3bf-d75c35b29267)
+
 
 ---
 
