@@ -55,6 +55,6 @@
 
 ---
 ### Use of tool
-**first time of use you should choose 3 to store openvpn file path that you downloaded from THM ( be careful to write /home/user not ~ in path )**
+**first time of use you should choose 3 to store openvpn file path that you downloaded from THM ( be careful to write /home/user not ~ in path ) then you can choose 1 to start to connect and 5 to close tool then after you finish you can just choose 2 to disconnect**
 
 
