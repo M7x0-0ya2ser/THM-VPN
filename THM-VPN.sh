@@ -13,7 +13,7 @@ echo -e "\e[97m                   ██║   ██╔══██║██║�
 echo -e "\e[97m                   ██║   ██║  ██║██║ ╚═╝ ██║     ╚████╔╝ ██║     ██║ ╚████║               \e[0m"
 echo -e "\e[97m                   ╚═╝   ╚═╝  ╚═╝╚═╝     ╚═╝      ╚═══╝  ╚═╝     ╚═╝  ╚═══╝               \e[0m"
 echo -e "\e[97m                                                                                          \e[0m"
-echo -e "\e[97m                                                                                          \e[0m"
+echo -e "                                         \e[91m@M7x\e[0m\e[32m0_0\e[0m\e[97mya2ser\e[0m"
 echo -e "\e[97m                                                                                          \e[0m"
 echo -e "\e[91m█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗\e[0m"
 echo -e "\e[32m╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝\e[0m"
@@ -124,7 +124,19 @@ config_file_path_fun(){
     fi
 }
 
-select opt in Connect Disconnect "assign OPENVPN file path" quit
+Change_path(){
+    # Check if the config file exists
+    if [ -e "config.txt" ] 
+    then
+        # If it doesn't exist, prompt the user for input
+        read -p "Enter the new path to your OpenVPN configuration file: " config_from_user
+
+        # Save the user input to the config file
+        echo "openvpn_path=$config_from_user" > config.txt
+    fi
+}
+
+select opt in Connect Disconnect "assign OPENVPN file path" "Change OPENVPN file path" quit
 do
     if [ "$opt" == "Connect" ]
     then
@@ -137,6 +149,10 @@ do
     elif [ "$opt" == "assign OPENVPN file path" ]
     then
         config_file_path_fun
+
+    elif [ "$opt" == "Change OPENVPN file path" ]
+    then
+        Change_path
 
     elif [ "$opt" == "quit" ]
     then
