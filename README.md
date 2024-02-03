@@ -9,7 +9,10 @@
 
 ---
 
-▶ At first you should downloads the configration file from [THM](https://tryhackme.com/r/access) 
+▶ At first you should downloads the configration file (xxxx.ovpn) from [THM](https://tryhackme.com/r/access) 
+
+![image](https://github.com/M7x0-0ya2ser/THM-VPN/assets/115821128/c23e1b70-a511-449c-bfb6-4391b1ce37f1)
+
 
 ---
 
