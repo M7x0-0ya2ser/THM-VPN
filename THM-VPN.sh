@@ -133,6 +133,8 @@ Change_path(){
 
         # Save the user input to the config file
         echo "openvpn_path=$config_from_user" > config.txt
+    else
+        echo -e "\e[31mYou should assign an OpenVPN file.\e[0m"
     fi
 }
 
@@ -157,6 +159,9 @@ do
     elif [ "$opt" == "quit" ]
     then
         exit
+
+    else
+        echo -e "\e[31mInvalid Option\e[0m"
 
     fi
 
