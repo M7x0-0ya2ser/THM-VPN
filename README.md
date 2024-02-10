@@ -38,7 +38,18 @@
 6- connect
 - warp-cli connect
 ```
+
+
+### If anyone faced a problem while downloading cloudflare he can follow next steps
+-download old version from [Here](https://drive.google.com/file/d/1TaRPr9Vq1yrjFv7pq4QqTlCa_RcYd1zN/view?usp=drive_link)
+```bash
+1- sudo dpkg -i cloudflare_warp.deb
+2- warp-cli register
+3- warp-cli connect
+```
+
 ---
+
 ### Before you start to use the tool if you aren't install openvpn follow the next steps, if already installed skip the next steps
 
 ```bash
